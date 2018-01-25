@@ -2,7 +2,8 @@
 
 int main() {
     //TableCreate("Test");
-    InsertItem("Test", "ANiket3");
-    GetItem("Test", "ANiket3");
+    //InsertItem("testrates", "ANiket3");
+    GetItem("testrates", "016cc5c74040");
+    QueryItem("testrates", "016cc5c74040");
     return 0;
 }

@@ -67,6 +67,7 @@ CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/BatchWriteItemResult.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/Capacity.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ComparisonOperator.h
+ /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/Condition.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ConditionalOperator.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ConsumedCapacity.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ContinuousBackupsDescription.h
@@ -113,6 +114,7 @@ CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/PutItemRequest.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/PutItemResult.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/PutRequest.h
+ /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/QueryRequest.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/QueryResult.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/Replica.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ReplicaDescription.h
@@ -123,6 +125,7 @@ CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ReturnValue.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ScalarAttributeType.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ScanResult.h
+ /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/Select.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/SourceTableDetails.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/SourceTableFeatureDetails.h
  /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/StreamSpecification.h

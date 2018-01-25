@@ -5,4 +5,15 @@ gcc main.c -L. -laaa_c_connector -o c_aaa
 
 
 g++ -fpic -shared aaa_c_connector.cpp -L.  -o libaaa_c_connector.so
-gcc main.c -L. -laaa_c_connector -o c_aaa
+gcc main.c -L. -lDynamoAPI -o c_aaa
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD
+
+Dynamo CPP query
+
+virtual Model::QueryOutcome Aws::DynamoDB::DynamoDBClient::Query 	( 	const Model::QueryRequest &  	request	) 	const
+
+void Aws::DynamoDB::Model::QueryRequest::SetKeyConditionExpression 	( 	const Aws::String &  	value	) 	
+void 	SetExpressionAttributeNames (const Aws::Map< Aws::String, Aws::String > &value)
+QueryRequest & 	AddExpressionAttributeNames (const Aws::String &key, const Aws::String &value)
+QueryRequest & 	AddExpressionAttributeValues (Aws::String &&key, AttributeValue &&value)

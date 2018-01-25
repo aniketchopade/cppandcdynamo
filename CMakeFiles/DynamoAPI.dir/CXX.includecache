@@ -35,6 +35,8 @@ aws/dynamodb/model/PutItemRequest.h
 -
 aws/dynamodb/model/PutItemResult.h
 -
+aws/dynamodb/model/QueryRequest.h
+-
 DynamoAPI.h
 /home/aniket/Downloads/cppc/DynamoAPI.h
 
@@ -766,6 +768,18 @@ aws/dynamodb/DynamoDB_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 
+/media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/Condition.h
+aws/dynamodb/DynamoDB_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
+aws/dynamodb/model/ComparisonOperator.h
+-
+aws/dynamodb/model/AttributeValue.h
+-
+utility
+-
+
 /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ConditionalOperator.h
 aws/dynamodb/DynamoDB_EXPORTS.h
 -
@@ -1282,6 +1296,30 @@ aws/dynamodb/model/AttributeValue.h
 utility
 -
 
+/media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/QueryRequest.h
+aws/dynamodb/DynamoDB_EXPORTS.h
+-
+aws/dynamodb/DynamoDBRequest.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/dynamodb/model/Select.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/memory/stl/AWSMap.h
+-
+aws/dynamodb/model/ConditionalOperator.h
+-
+aws/dynamodb/model/ReturnConsumedCapacity.h
+-
+aws/dynamodb/model/Condition.h
+-
+aws/dynamodb/model/AttributeValue.h
+-
+utility
+-
+
 /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/QueryResult.h
 aws/dynamodb/DynamoDB_EXPORTS.h
 -
@@ -1370,6 +1408,12 @@ aws/core/utils/memory/stl/AWSString.h
 aws/dynamodb/model/AttributeValue.h
 -
 utility
+-
+
+/media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/Select.h
+aws/dynamodb/DynamoDB_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
 -
 
 /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/SourceTableDetails.h

@@ -66,6 +66,7 @@ CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/BatchWriteItemResult.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/Capacity.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ComparisonOperator.h
+CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/Condition.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ConditionalOperator.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ConsumedCapacity.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ContinuousBackupsDescription.h
@@ -112,6 +113,7 @@ CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/PutItemRequest.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/PutItemResult.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/PutRequest.h
+CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/QueryRequest.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/QueryResult.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/Replica.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ReplicaDescription.h
@@ -122,6 +124,7 @@ CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ReturnValue.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ScalarAttributeType.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/ScanResult.h
+CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/Select.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/SourceTableDetails.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/SourceTableFeatureDetails.h
 CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o: /media/sf_Documents/aws-cpp/source/aws-sdk-cpp/aws-cpp-sdk-dynamodb/include/aws/dynamodb/model/StreamSpecification.h

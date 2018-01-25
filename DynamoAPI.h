@@ -8,6 +8,7 @@ extern "C" {
 void TableCreate(const char *name);
 void InsertItem(const char *table, const char *name);
 void GetItem(const char *table, const char *name);
+void QueryItem(const char *table, const char *name);
 
 #ifdef __cplusplus
 }

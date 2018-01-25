@@ -15,6 +15,8 @@
 #include <aws/dynamodb/model/PutItemRequest.h>
 #include <aws/dynamodb/model/PutItemResult.h>
 
+#include <aws/dynamodb/model/QueryRequest.h>
+
 #include "DynamoAPI.h"
 
 #ifdef __cplusplus
@@ -67,7 +69,7 @@ extern "C" {
     void GetItem(const char *table, const char *name) {    
 
         Aws::SDKOptions options;
-        std::cout<< name;
+        
         
         Aws::InitAPI(options);
         {
@@ -80,8 +82,9 @@ extern "C" {
             */
             Aws::DynamoDB::Model::AttributeValue haskKey;
             haskKey.SetS(name);
-            req.AddKey("Name", haskKey);
+            req.AddKey("stationrateCode", haskKey);
             req.SetTableName(table);
+            std::cout << table <<std::endl;
 
             const Aws::DynamoDB::Model::GetItemOutcome& result = dynamoClient.GetItem(req);
             if (result.IsSuccess())
@@ -89,8 +92,8 @@ extern "C" {
                 const Aws::Map<Aws::String, Aws::DynamoDB::Model::AttributeValue>& item = result.GetResult().GetItem();
                 if (item.size() > 0)
                 {
-                    for (const auto& i : item)
-                        std::cout << i.first << ": " << i.second.GetS() << std::endl;
+                 for (const auto& i : item)
+                    std::cout << i.first << ": " << i.second.GetS() << std::endl;
                 }
                 else
                 {
@@ -102,6 +105,38 @@ extern "C" {
             {
                 std::cout << "Failed to get item: " << result.GetError().GetMessage();
             }
+        }
+        Aws::ShutdownAPI(options);
+    }
+
+    void QueryItem(const char *table, const char *name) {    
+
+        Aws::SDKOptions options;
+        
+        
+        Aws::InitAPI(options);
+        {
+            Aws::Client::ClientConfiguration clientConfig;
+            Aws::DynamoDB::DynamoDBClient dynamoClient(clientConfig);
+            Aws::DynamoDB::Model::QueryRequest qr;
+
+            Aws::String keyexpression("#key = :stationrateCodeval");
+            Aws::String keyexpressattribvalue(":stationrateCodeval");
+            Aws::DynamoDB::Model::AttributeValue keyvalue;
+            keyvalue.SetS(name);
+            qr.SetKeyConditionExpression(keyexpression);
+            qr.AddExpressionAttributeNames("#key", "stationrateCode");
+            qr.AddExpressionAttributeValues(keyexpressattribvalue, keyvalue);
+            qr.SetTableName(table);
+            const Aws::DynamoDB::Model::QueryOutcome result = dynamoClient.Query(qr); 
+
+             if (!result.IsSuccess())
+             {
+                std::cout << result.GetError().GetMessage() << std::endl;
+                
+             }
+                std::cout << "Done!" << std::endl;
+
         }
         Aws::ShutdownAPI(options);
     }
