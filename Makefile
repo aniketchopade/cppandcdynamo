@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named aaa_c_connector
+# Target rules for targets named DynamoAPI
 
 # Build rule for target.
-aaa_c_connector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aaa_c_connector
-.PHONY : aaa_c_connector
+DynamoAPI: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DynamoAPI
+.PHONY : DynamoAPI
 
 # fast build rule for target.
-aaa_c_connector/fast:
-	$(MAKE) -f CMakeFiles/aaa_c_connector.dir/build.make CMakeFiles/aaa_c_connector.dir/build
-.PHONY : aaa_c_connector/fast
+DynamoAPI/fast:
+	$(MAKE) -f CMakeFiles/DynamoAPI.dir/build.make CMakeFiles/DynamoAPI.dir/build
+.PHONY : DynamoAPI/fast
 
-aaa_c_connector.o: aaa_c_connector.cpp.o
+DynamoAPI.o: DynamoAPI.cpp.o
 
-.PHONY : aaa_c_connector.o
+.PHONY : DynamoAPI.o
 
 # target to build an object file
-aaa_c_connector.cpp.o:
-	$(MAKE) -f CMakeFiles/aaa_c_connector.dir/build.make CMakeFiles/aaa_c_connector.dir/aaa_c_connector.cpp.o
-.PHONY : aaa_c_connector.cpp.o
+DynamoAPI.cpp.o:
+	$(MAKE) -f CMakeFiles/DynamoAPI.dir/build.make CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.o
+.PHONY : DynamoAPI.cpp.o
 
-aaa_c_connector.i: aaa_c_connector.cpp.i
+DynamoAPI.i: DynamoAPI.cpp.i
 
-.PHONY : aaa_c_connector.i
+.PHONY : DynamoAPI.i
 
 # target to preprocess a source file
-aaa_c_connector.cpp.i:
-	$(MAKE) -f CMakeFiles/aaa_c_connector.dir/build.make CMakeFiles/aaa_c_connector.dir/aaa_c_connector.cpp.i
-.PHONY : aaa_c_connector.cpp.i
+DynamoAPI.cpp.i:
+	$(MAKE) -f CMakeFiles/DynamoAPI.dir/build.make CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.i
+.PHONY : DynamoAPI.cpp.i
 
-aaa_c_connector.s: aaa_c_connector.cpp.s
+DynamoAPI.s: DynamoAPI.cpp.s
 
-.PHONY : aaa_c_connector.s
+.PHONY : DynamoAPI.s
 
 # target to generate assembly for a file
-aaa_c_connector.cpp.s:
-	$(MAKE) -f CMakeFiles/aaa_c_connector.dir/build.make CMakeFiles/aaa_c_connector.dir/aaa_c_connector.cpp.s
-.PHONY : aaa_c_connector.cpp.s
+DynamoAPI.cpp.s:
+	$(MAKE) -f CMakeFiles/DynamoAPI.dir/build.make CMakeFiles/DynamoAPI.dir/DynamoAPI.cpp.s
+.PHONY : DynamoAPI.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... aaa_c_connector"
+	@echo "... DynamoAPI"
 	@echo "... edit_cache"
-	@echo "... aaa_c_connector.o"
-	@echo "... aaa_c_connector.i"
-	@echo "... aaa_c_connector.s"
+	@echo "... DynamoAPI.o"
+	@echo "... DynamoAPI.i"
+	@echo "... DynamoAPI.s"
 .PHONY : help
 
 

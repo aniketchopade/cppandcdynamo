@@ -1,5 +1,5 @@
-#ifndef AAA_C_CONNECTOR_H 
-#define AAA_C_CONNECTOR_H 
+#ifndef DYNAMOAPI_H 
+#define DYNAMOAPI_H
 
 #ifdef __cplusplus
 extern "C" {

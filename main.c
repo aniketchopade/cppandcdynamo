@@ -1,4 +1,4 @@
-#include "aaa_c_connector.h"
+#include "DynamoAPI.h"
 
 int main() {
     //TableCreate("Test");

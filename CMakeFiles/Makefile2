@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/aniket/Downloads/cppc
 CMAKE_BINARY_DIR = /home/aniket/Downloads/cppc
 
 #=============================================================================
-# Target rules for target CMakeFiles/aaa_c_connector.dir
+# Target rules for target CMakeFiles/DynamoAPI.dir
 
 # All Build rule for target.
-CMakeFiles/aaa_c_connector.dir/all:
-	$(MAKE) -f CMakeFiles/aaa_c_connector.dir/build.make CMakeFiles/aaa_c_connector.dir/depend
-	$(MAKE) -f CMakeFiles/aaa_c_connector.dir/build.make CMakeFiles/aaa_c_connector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aniket/Downloads/cppc/CMakeFiles --progress-num=1,2 "Built target aaa_c_connector"
-.PHONY : CMakeFiles/aaa_c_connector.dir/all
+CMakeFiles/DynamoAPI.dir/all:
+	$(MAKE) -f CMakeFiles/DynamoAPI.dir/build.make CMakeFiles/DynamoAPI.dir/depend
+	$(MAKE) -f CMakeFiles/DynamoAPI.dir/build.make CMakeFiles/DynamoAPI.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aniket/Downloads/cppc/CMakeFiles --progress-num=1,2 "Built target DynamoAPI"
+.PHONY : CMakeFiles/DynamoAPI.dir/all
 
 # Include target in all.
-all: CMakeFiles/aaa_c_connector.dir/all
+all: CMakeFiles/DynamoAPI.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/aaa_c_connector.dir/rule: cmake_check_build_system
+CMakeFiles/DynamoAPI.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aniket/Downloads/cppc/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aaa_c_connector.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DynamoAPI.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aniket/Downloads/cppc/CMakeFiles 0
-.PHONY : CMakeFiles/aaa_c_connector.dir/rule
+.PHONY : CMakeFiles/DynamoAPI.dir/rule
 
 # Convenience name for target.
-aaa_c_connector: CMakeFiles/aaa_c_connector.dir/rule
+DynamoAPI: CMakeFiles/DynamoAPI.dir/rule
 
-.PHONY : aaa_c_connector
-
-# clean rule for target.
-CMakeFiles/aaa_c_connector.dir/clean:
-	$(MAKE) -f CMakeFiles/aaa_c_connector.dir/build.make CMakeFiles/aaa_c_connector.dir/clean
-.PHONY : CMakeFiles/aaa_c_connector.dir/clean
+.PHONY : DynamoAPI
 
 # clean rule for target.
-clean: CMakeFiles/aaa_c_connector.dir/clean
+CMakeFiles/DynamoAPI.dir/clean:
+	$(MAKE) -f CMakeFiles/DynamoAPI.dir/build.make CMakeFiles/DynamoAPI.dir/clean
+.PHONY : CMakeFiles/DynamoAPI.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/DynamoAPI.dir/clean
 
 .PHONY : clean
 

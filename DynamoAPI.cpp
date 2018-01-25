@@ -15,7 +15,7 @@
 #include <aws/dynamodb/model/PutItemRequest.h>
 #include <aws/dynamodb/model/PutItemResult.h>
 
-#include "aaa_c_connector.h"
+#include "DynamoAPI.h"
 
 #ifdef __cplusplus
 
