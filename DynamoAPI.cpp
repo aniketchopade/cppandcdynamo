@@ -110,9 +110,9 @@ extern "C" {
     void InsertItem(const char *table, const char *name) {    
 
         Aws::SDKOptions options;
-        std::cout<< name;
+        //std::cout<< name;
         const char* attributes[] = {"name:Aniket", "age:34", "dob:010101"};
-        int station = 888;
+        int station = 999;
 
         Aws::InitAPI(options);
         {
@@ -125,8 +125,10 @@ extern "C" {
             Aws::DynamoDB::Model::AttributeValue av;
             av.SetS(name);
             pir.AddItem("Name", av);
-            std::cout << "Done!" << attributes[0];
             
+            av.SetB(station);
+            pir.AddItem("Station", av);
+        
             for (int x = 0; x < 3; x++)
             {
                 const Aws::String arg(attributes[x]);
